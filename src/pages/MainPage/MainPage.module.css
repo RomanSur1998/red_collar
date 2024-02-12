@@ -1,0 +1,24 @@
+.cardContainer {
+  width: 1300px;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 6px;
+  margin-inline: auto;
+  position: relative;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1300px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+}
+.view {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

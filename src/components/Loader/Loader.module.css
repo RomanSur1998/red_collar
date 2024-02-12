@@ -1,0 +1,21 @@
+.loaderIcon {
+  transform: rotate(90deg);
+  animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3625ff;
+  margin: 8px auto;
+}

@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.image {
+  width: 60px;
+  height: 60px;
+  object-fit: scale-down;
+  /* object-position: center; */
+}
+.block {
+  width: 212px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.textBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttonBlock {
+  width: 72px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: rgb(46, 52, 56);
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #efeef4;
+  padding: 4px;
+  border-radius: 4px;
+}
+.buttonBlock button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: rgb(46, 52, 56);
+  font-size: 18px;
+  font-weight: 500;
+}
