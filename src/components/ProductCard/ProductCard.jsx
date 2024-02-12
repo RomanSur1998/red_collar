@@ -9,6 +9,7 @@ import { Pagination } from "swiper/modules";
 import { useDispatch } from "react-redux";
 import { addProductInCart } from "../../store/clices/DataSlice";
 import { addProductToLoaclStorage } from "../../helpers/cartHelper";
+import { getDiscount } from "../../helpers/getDiscount";
 
 const ProductCard = ({
   description,
@@ -114,7 +115,7 @@ const ProductCard = ({
           >
             <img src={icons.cart} alt="" /> ${price}
           </button>
-          <span>${}</span>
+          <span>${getDiscount(price, discountPercentage)}</span>
         </div>
       </div>
     </div>
