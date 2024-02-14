@@ -1,8 +1,54 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Название проекта: RED COLLAR
 
-Currently, two official plugins are available:
+Описание:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Этот проект представляет собой часть интернет-магазина, а именно раздел корзины. Он реализован на React с использованием Redux Toolkit для управления состоянием и module.css для стилизации.
+
+Функциональность:
+
+Корзина:
+Добавление товаров в корзину
+Удаление товаров из корзины
+Изменение количества товаров в корзине
+Расчет итоговой стоимости
+Список товаров:
+Фильтрация по категориям
+Поиск по названию
+Поиск:
+Кастомный хук debounce для оптимизации производительности
+Технологии:
+
+React: JavaScript-библиотека для создания пользовательских интерфейсов
+Redux Toolkit: Инструментарий для управления состоянием в React
+module.css: Локальная система стилизации
+Local Storage: Хранение данных на стороне клиента
+Запуск проекта:
+
+Скачайте проект: git clone https://github.com/RomanSur1998/red_collar
+Установите зависимости: npm install
+Запустите сервер: npm run dev
+Откройте браузер и перейдите по адресу http://localhost:5173
+Скрипты:
+
+Структура проекта:
+
+src/: Исходный код проекта
+assets/: Ресурсы проекта (изображения, шрифты)
+components/: Компоненты React
+hooks/: Кастомные хуки
+pages/: Страницы приложения
+store/: Логика Redux
+helpers/: Вспомогательные функции
+public/: Статические файлы
+Документация:
+
+React: https://reactjs.org/
+Redux Toolkit: https://redux-toolkit.js.org/
+module.css: [[неправильный URL удален]]([неправильный URL удален])
+Лицензия:
+
+Автор :
+GitHub:https://github.com/RomanSur1998
+Email: romansurkov87@gmail.com
